@@ -21,6 +21,9 @@ producto.precio = 5500;
 //Agregando propiedades al Objeto
 producto.color = 'Negro';
 
+//Eliminando propiedades del objeto
+delete producto.precio;
+
 //Acceder al objeto
 console.log(producto.nombre);
 console.log(producto['nombre']);
